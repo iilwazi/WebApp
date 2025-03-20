@@ -1,0 +1,8 @@
+            - name: Rerun Workflows
+  # You may pin to the exact commit or the version.
+  # uses: synergy-au/rerun-workflows-action@b4c1e9979c522cdc246a47b827b378b5c3e8e0d8
+  uses: synergy-au/rerun-workflows-action@v1
+  with:
+    # If you are working in a private repo, you will need to specify the [GitHub secrets token](https://docs.github.com/en/actions/reference/authentication-in-a-workflow)
+    auth-token: # optional, default is ${{ github.token }}
+          
